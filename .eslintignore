@@ -1,0 +1,9 @@
+build
+coverage
+dist
+lib
+node_modules
+
+# Temporary
+testsuite
+simulator

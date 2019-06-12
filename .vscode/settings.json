@@ -1,0 +1,14 @@
+{
+  "tslint.enable": false,
+  "eslint.enable": true,
+  "eslint.validate": [
+    "javascriptreact",
+    { "autoFix": true, "language": "javascript" },
+    { "autoFix": true, "language": "typescript" },
+    { "autoFix": true, "language": "typescriptreact" }
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.tslint": true
+  },
+  "typescript.tsdk": "node_modules/typescript/lib"
+}
