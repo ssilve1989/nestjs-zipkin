@@ -9,6 +9,8 @@
 
 # nestjs-zipkin
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/ssilve1989/nestjs-zipkin.svg)](https://greenkeeper.io/)
+
 ## Installation
 
 ```bash
