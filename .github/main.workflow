@@ -1,15 +1,15 @@
 workflow "Build and Test" {
   on = "push"
-  resolves = ["docker://node:12-1"]
+  resolves = ["Test"]
 }
 
-action "docker://node:12" {
+action "Install" {
   uses = "docker://node:12"
   runs = "yarn install --frozen-lockfile"
 }
 
-action "docker://node:12-1" {
+action "Test" {
   uses = "docker://node:12"
-  needs = ["docker://node:12"]
   runs = "yarn test"
+  needs = ["Install"]
 }
