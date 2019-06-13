@@ -35,11 +35,9 @@ export class ZipkinRedisServer extends ServerRedis {
 
   private withTrace(pattern: any, handler: MessageHandler) {
     return async (data: TraceablePayload) => {
-      const { traceId, ...rest } = data;
-
       const { childTraceId } = this.recordTrace(pattern, data);
 
-      const result = await handler(rest);
+      const result = await handler(data);
 
       this.tracer.letId(childTraceId, () => {
         this.tracer.recordAnnotation(new Annotation.ServerRecv());
