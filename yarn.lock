@@ -5527,13 +5527,6 @@ zipkin-context-cls@^0.18.0:
   dependencies:
     continuation-local-storage "^3.1.7"
 
-zipkin-instrumentation-redis@^0.18.1:
-  version "0.18.1"
-  resolved "https://registry.yarnpkg.com/zipkin-instrumentation-redis/-/zipkin-instrumentation-redis-0.18.1.tgz#7c3d5d5bcb134a9df9c42947ef3938c690eb28ff"
-  integrity sha512-Yjkz/O+tUClpUJlNnTbpomvmLD2xdC+2Bbr30R/9dEeLUjE8TcLIQgmS1QcXszK9rf4PR3RHI90WhKLljMm4cQ==
-  dependencies:
-    redis-commands "^1.2.0"
-
 zipkin-transport-http@^0.18.1:
   version "0.18.1"
   resolved "https://registry.yarnpkg.com/zipkin-transport-http/-/zipkin-transport-http-0.18.1.tgz#8dd53d81f4dd869eb12806ae8e1450171d19630b"

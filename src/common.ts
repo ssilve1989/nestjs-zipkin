@@ -26,3 +26,7 @@ export function getTraceId(tracer: Tracer, data: TraceablePayload) {
   }
   return tracer.createRootId(); // might need to be child?
 }
+
+export function recordObjectAsBinary(tracer: Tracer, object: { [key: string]: any }) {
+  Object.entries(object).forEach(([key, value]) => tracer.recordBinary(key, JSON.stringify(value)));
+}

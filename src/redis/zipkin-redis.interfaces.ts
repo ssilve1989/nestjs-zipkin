@@ -1,5 +1,13 @@
+import { InetAddress } from 'zipkin';
+
 export type ZipkinRedisOptions = {
-  serviceName: string;
   host: string;
+  port: number;
+  serviceName: string;
+};
+
+export type ServiceAddress = {
+  serviceName: string;
+  host: InetAddress;
   port: number;
 };
