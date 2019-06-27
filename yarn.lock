@@ -5527,10 +5527,10 @@ zipkin-context-cls@^0.18.0:
   dependencies:
     continuation-local-storage "^3.1.7"
 
-zipkin-transport-http@^0.18.1:
-  version "0.18.1"
-  resolved "https://registry.yarnpkg.com/zipkin-transport-http/-/zipkin-transport-http-0.18.1.tgz#8dd53d81f4dd869eb12806ae8e1450171d19630b"
-  integrity sha512-rW0j5kYwyjBLYJA1HkSzJidzJvBCMQO6hkkXSoNR4XhmDfOPvcY1qfXqDD1wF+dio4ZiWvbQl0VoslVlRpDa9g==
+zipkin-transport-http@^0.18.3:
+  version "0.18.3"
+  resolved "https://registry.yarnpkg.com/zipkin-transport-http/-/zipkin-transport-http-0.18.3.tgz#43c377c9f6182cc39ce3afaa9c1f405da6434e14"
+  integrity sha512-VvXA3hfyHv1y5c60hWBkawOs3KFVf1qZoQtjA5kMNs+mSE/hHI54a/XHz0TEcwmTLy9PVXGHFZ1CSuIAGUvDuA==
   dependencies:
     node-fetch "^2.3.0"
 
