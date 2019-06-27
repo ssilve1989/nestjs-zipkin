@@ -49,7 +49,7 @@
   "dependencies": {
     "zipkin": "^0.18.1",
     "zipkin-context-cls": "^0.18.0",
-    "zipkin-transport-http": "^0.18.1"
+    "zipkin-transport-http": "^0.18.3"
   },
   "scripts": {
     "commit": "npx git cz",
