@@ -47,7 +47,7 @@
     "typescript": "^3.5.1"
   },
   "dependencies": {
-    "zipkin": "^0.18.1",
+    "zipkin": "^0.18.4",
     "zipkin-context-cls": "^0.18.0",
     "zipkin-transport-http": "^0.18.1"
   },
