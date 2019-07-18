@@ -28,7 +28,7 @@
     "@types/zipkin-context-cls": "^0.11.2",
     "@typescript-eslint/eslint-plugin": "^1.10.2",
     "@typescript-eslint/parser": "^1.10.2",
-    "commitizen": "^3.1.1",
+    "commitizen": "3.1.1",
     "cz-conventional-changelog": "^2.1.0",
     "eslint": "^5.16.0",
     "eslint-config-airbnb": "^17.1.0",
