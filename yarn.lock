@@ -5527,17 +5527,25 @@ zipkin-context-cls@^0.18.0:
   dependencies:
     continuation-local-storage "^3.1.7"
 
-zipkin-transport-http@^0.18.1:
-  version "0.18.1"
-  resolved "https://registry.yarnpkg.com/zipkin-transport-http/-/zipkin-transport-http-0.18.1.tgz#8dd53d81f4dd869eb12806ae8e1450171d19630b"
-  integrity sha512-rW0j5kYwyjBLYJA1HkSzJidzJvBCMQO6hkkXSoNR4XhmDfOPvcY1qfXqDD1wF+dio4ZiWvbQl0VoslVlRpDa9g==
+zipkin-transport-http@^0.19.1:
+  version "0.19.1"
+  resolved "https://registry.yarnpkg.com/zipkin-transport-http/-/zipkin-transport-http-0.19.1.tgz#946a0f75fbecb7f9ffd0d26eb2b70e1fdbecc877"
+  integrity sha512-96uL2xrkCnLZzZs5/66bz9L47J96m01vxE4K2JA4bIPvk9clTVEFdhLQnSg3KpyQgb+cUofQHDO8373yCRVGPQ==
   dependencies:
-    node-fetch "^2.3.0"
+    zipkin "^0.19.1"
 
 zipkin@>=0.11.0, zipkin@^0.18.1:
   version "0.18.1"
   resolved "https://registry.yarnpkg.com/zipkin/-/zipkin-0.18.1.tgz#c74df7356e1e0fd4d66a649a9a09660d29aba253"
   integrity sha512-lnZx01KWPW2k0ueqAHNLRFj882etAZV3q8hKjqhaI8DMrgIiE5lwhYV8YaIpXQrvE8J8iCbp3sNoJpTv+R5Dlw==
+  dependencies:
+    base64-js "^1.1.2"
+    is-promise "^2.1.0"
+
+zipkin@^0.19.1:
+  version "0.19.1"
+  resolved "https://registry.yarnpkg.com/zipkin/-/zipkin-0.19.1.tgz#8d767dc2664a881e654219f497bceecfd72bc4d0"
+  integrity sha512-S9OCRq+pYiS7sQ2vPVHsKiEFlHsfnZVOJU1sAsodDvqaACZky8EV0amDCxFtJshNQSqT1zJz3Z+FBMNPXgA6eA==
   dependencies:
     base64-js "^1.1.2"
     is-promise "^2.1.0"
