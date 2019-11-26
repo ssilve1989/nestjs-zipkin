@@ -20,7 +20,7 @@
     "rxjs": "^6.3.3"
   },
   "devDependencies": {
-    "@nestjs/common": "^6.0.0",
+    "@nestjs/common": "^6.10.2",
     "@nestjs/core": "^6.0.0",
     "@nestjs/microservices": "^6.0.0",
     "@types/jest": "^24.0.13",
