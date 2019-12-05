@@ -306,14 +306,13 @@
     optional "0.1.4"
     uuid "3.3.2"
 
-"@nestjs/microservices@^6.0.0":
-  version "6.3.1"
-  resolved "https://registry.yarnpkg.com/@nestjs/microservices/-/microservices-6.3.1.tgz#b6d080afb61c1c8e50394eb73f5f40a5f606b09b"
-  integrity sha512-vujz9lczXBnkw8H7vY/7V6Je0zcCUvpbgwLNGa5Dm/+SzUKTdSk5qjGgt3TiczXZY2PSuOdsTY0qUFHYK7B5yA==
+"@nestjs/microservices@^6.10.6":
+  version "6.10.6"
+  resolved "https://registry.yarnpkg.com/@nestjs/microservices/-/microservices-6.10.6.tgz#fe2a47e26c49707084e5a4ad5ef862980d7ea305"
+  integrity sha512-BmaheXum91pufpbuUXJX9nXXyFmFx0Yxgz/6SiTVxt5fbucj11B6iGv8OhKNTuA5w2n6WrolKGJ4eAz9HEgXlg==
   dependencies:
-    iterare "1.1.2"
+    iterare "1.2.0"
     json-socket "0.3.0"
-    optional "0.1.4"
 
 "@nuxtjs/opencollective@0.2.2":
   version "0.2.2"
@@ -2762,6 +2761,11 @@ iterare@1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/iterare/-/iterare-1.1.2.tgz#32e65fe03c72f727b1ae5fd002ed6a215f523ae8"
   integrity sha512-25rVYmj/dDvTR6zOa9jY1Ihd6USLa0J508Ub2iy7Aga+xu9JMbjDds2Uh03ReDGbva/YN3s3Ybi+Do0nOX6wAg==
+
+iterare@1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/iterare/-/iterare-1.2.0.tgz#7427f5ed45986e4b73e2fea903579f1117f3dd15"
+  integrity sha512-RxMV9p/UzdK0Iplnd8mVgRvNdXlsTOiuDrqMRnDi3wIhbT+JP4xDquAX9ay13R3CH72NBzQ91KWe0+C168QAyQ==
 
 jest-changed-files@^24.8.0:
   version "24.8.0"
