@@ -5534,10 +5534,18 @@ zipkin-transport-http@^0.18.1:
   dependencies:
     node-fetch "^2.3.0"
 
-zipkin@>=0.11.0, zipkin@^0.18.1:
+zipkin@>=0.11.0:
   version "0.18.1"
   resolved "https://registry.yarnpkg.com/zipkin/-/zipkin-0.18.1.tgz#c74df7356e1e0fd4d66a649a9a09660d29aba253"
   integrity sha512-lnZx01KWPW2k0ueqAHNLRFj882etAZV3q8hKjqhaI8DMrgIiE5lwhYV8YaIpXQrvE8J8iCbp3sNoJpTv+R5Dlw==
+  dependencies:
+    base64-js "^1.1.2"
+    is-promise "^2.1.0"
+
+zipkin@^0.20.0:
+  version "0.20.0"
+  resolved "https://registry.yarnpkg.com/zipkin/-/zipkin-0.20.0.tgz#c6b5888fb2ab99e24a210d03788be9fb7e313a80"
+  integrity sha512-nF+79x7w7TIYztIUcy1/khfCgcRbgA3xkBSKn7vbIAxVvd5LMR5drSbtJ7hE271aAUWrFwHJ2uFEZboplaJg5w==
   dependencies:
     base64-js "^1.1.2"
     is-promise "^2.1.0"
