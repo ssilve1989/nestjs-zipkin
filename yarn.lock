@@ -5520,10 +5520,10 @@ yn@^3.0.0:
   resolved "https://registry.yarnpkg.com/yn/-/yn-3.1.0.tgz#fcbe2db63610361afcc5eb9e0ac91e976d046114"
   integrity sha512-kKfnnYkbTfrAdd0xICNFw7Atm8nKpLcLv9AZGEt+kczL/WQVai4e2V6ZN8U/O+iI6WrNuJjNNOyu4zfhl9D3Hg==
 
-zipkin-context-cls@^0.18.0:
-  version "0.18.0"
-  resolved "https://registry.yarnpkg.com/zipkin-context-cls/-/zipkin-context-cls-0.18.0.tgz#b4e43b0d97822329333247b633507f282aeab6fc"
-  integrity sha512-UFcMU3B8/65FsoNpvevXfMRd8lUE1pC5KG6Z8xI8cfHyjm1X3JYuVY0rnOM6SZH98tCO4bqvd5UNXG6dfzn4mA==
+zipkin-context-cls@^0.21.0:
+  version "0.21.0"
+  resolved "https://registry.yarnpkg.com/zipkin-context-cls/-/zipkin-context-cls-0.21.0.tgz#b08ef68d6bb1c7b10b58688cc4af65fa86dd885b"
+  integrity sha512-4G8n4MV1qGTQjIbM1YKDOmU8EShu6oDOm18wJXwXi/PlA3rzQ0l5xPLcS+dZVnVtaXwU3VDhvWzhdb4KoboECg==
   dependencies:
     continuation-local-storage "^3.1.7"
 
